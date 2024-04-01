@@ -1,0 +1,8 @@
+.action-icon-button {
+  &:disabled,
+  &[data-disabled] {
+    color: var(--mantine-color-gray-4);
+    border-color: white;
+    background-color: white;
+  }
+}
